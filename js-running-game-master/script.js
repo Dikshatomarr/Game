@@ -1,6 +1,8 @@
 const hero = document.querySelector(".hero");
 const heroBoy = document.querySelector(".hero-boy");
 const villain = document.querySelector(".villain");
+var audio1 = new Audio('run.mp3');
+audio1.play();
 
 function jump() {
     if (hero.classList != "animate") {
